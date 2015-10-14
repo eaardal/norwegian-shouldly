@@ -3,6 +3,10 @@ using Shouldly;
 
 namespace Eaardal.Shouldly.Norwegian
 {
+    //
+    //  Translates DateTimeShouldBeTestExtensions.cs in the Shouldly codebase
+    //
+
     public static class DateTimeExtensions
     {
         public static void SkalVære(this DateTime faktisk, DateTime forventet, TimeSpan toleranse)

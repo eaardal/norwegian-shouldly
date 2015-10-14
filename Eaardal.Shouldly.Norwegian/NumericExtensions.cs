@@ -4,6 +4,10 @@ using Shouldly;
 
 namespace Eaardal.Shouldly.Norwegian
 {
+    //
+    //  Translates NumericShouldBeTestExtensions.cs in the Shouldly codebase
+    //
+
     public static class NumericExtensions
     {
         public static void SkalVære(this float faktisk, float forventet, double toleranse)

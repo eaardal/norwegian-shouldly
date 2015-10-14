@@ -4,6 +4,10 @@ using Shouldly;
 
 namespace Eaardal.Shouldly.Norwegian
 {
+    //
+    //  Translates GenericShouldBeTestExtensions.cs in the Shouldly codebase
+    //
+
     public static class GenericExtensions
     {
         public static void SkalVære<T>(this T faktisk, T forventet)
