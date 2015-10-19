@@ -7,7 +7,7 @@ namespace Eaardal.Shouldly.Norwegian
     //  Translates StringStartEndTestExtensions.cs in the Shouldly codebase
     //
 
-    public static class StringStartEndExtensions
+    public static class StringStartEndTestExtensions
     {
         public static void SkalStarteMed(this string faktisk, string forventet)
         {

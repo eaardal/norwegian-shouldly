@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Eaardal.Shouldly.Norwegian</RootNamespace>
     <AssemblyName>Eaardal.Shouldly.Norwegian</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -44,21 +45,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BooleanExtensions.cs" />
-    <Compile Include="DateTimeExtensions.cs" />
-    <Compile Include="DictionaryExtensions.cs" />
-    <Compile Include="EnumerableExtensions.cs" />
-    <Compile Include="GenericExtensions.cs" />
-    <Compile Include="GreaterLessExtensions.cs" />
-    <Compile Include="NullExtensions.cs" />
-    <Compile Include="NumericExtensions.cs" />
+    <Compile Include="ShouldBeBooleanExtensions.cs" />
+    <Compile Include="ShouldCompleteInExtensions.cs" />
+    <Compile Include="DateTimeShouldBeTestExtensions.cs" />
+    <Compile Include="ShouldBeDictionaryTestExtensions.cs" />
+    <Compile Include="ShouldBeEnumerableTestExtensions.cs" />
+    <Compile Include="GenericShouldBeTestExtensions.cs" />
+    <Compile Include="ShouldBeGtLtTestExtensions.cs" />
+    <Compile Include="ShouldBeNullExtensions.cs" />
+    <Compile Include="NumericShouldBeTestExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RangeExtensions.cs" />
-    <Compile Include="StringContainsExtension.cs" />
-    <Compile Include="StringNullOrEmptyExtensions.cs" />
-    <Compile Include="StringNullOrWhitespaceExtensions.cs" />
-    <Compile Include="StringShouldBeExtensions.cs" />
-    <Compile Include="StringStartEndExtensions.cs" />
+    <Compile Include="ShouldBeRangeTestExtensions.cs" />
+    <Compile Include="SatisfyAllConditionsExtensions.cs" />
+    <Compile Include="ShouldThrowTaskAsyncExtensions.cs" />
+    <Compile Include="ShouldThrowTaskExtensions.cs" />
+    <Compile Include="StringContainsTestExtensions.cs" />
+    <Compile Include="StringNullOrEmptyTestExtensions.cs" />
+    <Compile Include="StringNullOrWhitespaceTestExtensions.cs" />
+    <Compile Include="StringShouldBeTestExtensions.cs" />
+    <Compile Include="StringStartEndTestExtensions.cs" />
+    <Compile Include="ShouldThrowExtensions.cs" />
+    <Compile Include="ShouldBeTypeTestExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

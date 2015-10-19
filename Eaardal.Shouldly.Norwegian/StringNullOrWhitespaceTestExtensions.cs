@@ -7,7 +7,7 @@ namespace Eaardal.Shouldly.Norwegian
     //  Translates StringNullOrWhitespaceTestExtensions.cs in the Shouldly codebase
     //
 
-    public static class StringNullOrWhitespaceExtensions
+    public static class StringNullOrWhitespaceTestExtensions
     {
         public static void SkalVæreNullEllerMellomrom(this string faktisk)
         {

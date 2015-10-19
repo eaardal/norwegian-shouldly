@@ -7,7 +7,7 @@ namespace Eaardal.Shouldly.Norwegian
     //  Translates ShouldBeGtLtTestExtensions.cs in the Shouldly codebase
     //
 
-    public static class GreaterLessExtensions
+    public static class ShouldBeGtLtTestExtensions
     {
         public static void SkalVæreStørreEnn<T>(this T faktisk, T forventet) where T : IComparable<T>
         {

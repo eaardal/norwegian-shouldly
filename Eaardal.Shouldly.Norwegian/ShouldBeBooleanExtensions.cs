@@ -7,7 +7,7 @@ namespace Eaardal.Shouldly.Norwegian
     //  Translates ShouldBeBooleanExtensions.cs in the Shouldly codebase
     //
 
-    public static class BooleanExtensions
+    public static class ShouldBeBooleanExtensions
     {
         public static void SkalVæreSant(this bool faktisk)
         {

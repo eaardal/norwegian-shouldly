@@ -7,7 +7,7 @@ namespace Eaardal.Shouldly.Norwegian
     //  Translates StringContainsTestExtensions.cs in the Shouldly codebase
     //
 
-    public static class StringContainsExtension
+    public static class StringContainsTestExtensions
     {
         public static void SkalInneholdeUtenMellomrom(this string faktisk, object forventet)
         {

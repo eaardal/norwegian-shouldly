@@ -7,7 +7,7 @@ namespace Eaardal.Shouldly.Norwegian
     //  Translates ShouldThrowExtensions.cs in the Shouldly codebase
     //
 
-    public static class ThrowExtensions
+    public static class ShouldThrowExtensions
     {
         /*** SkalKaste(Action) ***/
         public static TException SkalKaste<TException>(this Action faktisk) where TException : Exception

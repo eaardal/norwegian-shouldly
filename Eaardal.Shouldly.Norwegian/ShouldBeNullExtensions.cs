@@ -7,7 +7,7 @@ namespace Eaardal.Shouldly.Norwegian
     //  Translates SkalVæreNullExtensions.cs in the Shouldly codebase
     //
 
-    public static class NullExtensions
+    public static class ShouldBeNullExtensions
     {
         public static void SkalVæreNull<T>(this T faktisk)
         {

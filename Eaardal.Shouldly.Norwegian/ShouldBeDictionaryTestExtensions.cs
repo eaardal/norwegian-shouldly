@@ -8,7 +8,7 @@ namespace Eaardal.Shouldly.Norwegian
     //  Translates ShouldBeDictionaryTestExtensions.cs in the Shouldly codebase
     //
 
-    public static class DictionaryExtensions
+    public static class ShouldBeDictionaryTestExtensions
     {
         public static void SkalInneholdeNøkkel<TKey, TValue>(this IDictionary<TKey, TValue> dictionary, TKey key)
         {

@@ -7,7 +7,7 @@ namespace Eaardal.Shouldly.Norwegian
     //  Translates StringShouldBeTestExtensions.cs in the Shouldly codebase
     //
 
-    public static class StringShouldBeExtensions
+    public static class StringShouldBeTestExtensions
     {
         public static void SkalVære(this string faktisk, string forventet)
         {
