@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
 using Shouldly;
 
@@ -10,7 +9,7 @@ namespace Eaardal.Shouldly.Norwegian
     //  Translates ShouldBeEnumerableTestExtensions.cs in the Shouldly codebase
     //
 
-    public static class EnumerableExtensions
+    public static class ShouldBeEnumerableTestExtensions
     {
         public static void SkalInneholde<T>(this IEnumerable<T> faktisk, T forventet)
         {

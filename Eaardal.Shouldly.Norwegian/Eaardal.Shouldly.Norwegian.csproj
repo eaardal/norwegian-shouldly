@@ -50,8 +50,10 @@
     <Compile Include="EnumerableExtensions.cs" />
     <Compile Include="GenericExtensions.cs" />
     <Compile Include="GreaterLessExtensions.cs" />
+    <Compile Include="NullExtensions.cs" />
     <Compile Include="NumericExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RangeExtensions.cs" />
     <Compile Include="StringContainsExtension.cs" />
     <Compile Include="StringNullOrEmptyExtensions.cs" />
     <Compile Include="StringNullOrWhitespaceExtensions.cs" />
