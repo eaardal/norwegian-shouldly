@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Eaardal.Shouldly.Norwegian")]
+[assembly: AssemblyTitle("NorwegianShouldly")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Statoil")]
-[assembly: AssemblyProduct("Eaardal.Shouldly.Norwegian")]
-[assembly: AssemblyCopyright("Copyright © Statoil 2015")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("NorwegianShouldly")]
+[assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("08718650-80bb-423f-990e-735c860a5188")]
+[assembly: Guid("ee33ae8e-0888-415e-b597-2640524394b0")]
 
 // Version information for an assembly consists of the following four values:
 //

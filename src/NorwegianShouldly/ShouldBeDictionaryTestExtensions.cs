@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Shouldly;
 
-namespace Eaardal.Shouldly.Norwegian
+namespace NorwegianShouldly
 {
     //
     //  Translates ShouldBeDictionaryTestExtensions.cs in the Shouldly codebase

@@ -1,7 +1,7 @@
 ﻿using System;
 using Shouldly;
 
-namespace Eaardal.Shouldly.Norwegian
+namespace NorwegianShouldly
 {
     //
     //  Translates StringShouldBeTestExtensions.cs in the Shouldly codebase

@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using Shouldly;
 
-namespace Eaardal.Shouldly.Norwegian
+namespace NorwegianShouldly
 {
     //
     //  Translates ShouldThrowTaskExtensions.cs in the Shouldly codebase
