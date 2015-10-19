@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <id>NorwegianShouldly</id>
+    <version>1.0.0</version>
+    <authors>This language wrapper: Eirik Årdal. Original Shouldly: See Shouldly NuGet package</authors>
+    <owners>Eirik Årdal</owners>
+    <licenseUrl>https://github.com/eaardal/norwegian-shouldly/blob/master/license.txt</licenseUrl>
+    <projectUrl>https://github.com/eaardal/norwegian-shouldly</projectUrl>
+    <iconUrl>https://github.com/eaardal/norwegian-shouldly/blob/master/icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A Norwegian language wrapper for the Shouldly test assertion framework. This library adds no extra functionality, only translates english function and parameter names to Norwegian</description>
+    <tags>test testing tdd</tags>
+      <dependencies>
+    <dependency id="Shouldly" version="2.6.0.0" />
+  </dependencies>
+  </metadata>
+  <files>
+    <file src="releases\1.0.0\source\NorwegianShouldly.dll" target="lib\net40\NorwegianShouldly.dll" />
+  </files>
+</package>
