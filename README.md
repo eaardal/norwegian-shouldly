@@ -20,4 +20,24 @@ var personer = new List<Person>{ person };
 personer.SkalIkkeVæreTom();
 personer.SkalInneholde(person);
 personer.Count.SkalVære(1);
+
+class Dyr { };
+class Hund : Dyr { };
+var hund = new Hund();
+hund.SkalVæreAvType<Hund>();
+hund.SkalKunneTilordnes<Dyr>();
+hund.SkalIkkeKunneTilordnes<NoeAnnet>();
+
+var alder = 15;
+alder.SkalVæreStørreEllerLik(18);
+alder.SkalVæreMindreEnn(30);
+alder.SkalVæreStørreEnn(3);
+
+noe.Farlig().SkalKaste();
+noe.MindreFarlig().SkalIkkeKaste();
+
+var lipsum = "Lorem ipsum dolor sit amet, consectetur adipiscing elit";
+lipsum.SkalStarteMed("Lorem");
+lipsum.SkalSlutteMed("elit");
+lipsum.SkalInneholde("sit amet");
 ```
